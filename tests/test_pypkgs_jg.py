@@ -6,6 +6,7 @@ import pandas as pd
 def test_version():
     assert __version__ == '0.1.1'
 
+
 def test_catbind():
     a = pd.Categorical(["character", "hits", "your", "eyeballs"])
     b = pd.Categorical(["but", "integer", "where it", "counts"])
